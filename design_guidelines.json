@@ -1,0 +1,200 @@
+{
+  "project_name": "Mundinho - Um Mini Amorzinho Digital 🎀",
+  "app_context": {
+    "type": "Single-page interactive digital love letter / creative gift website",
+    "language": "pt-BR (Brazilian Portuguese)",
+    "tone": "Playful, delicate, charming, crush-energy, romantic without being overly heavy, Awwwards-level interactive storytelling",
+    "art_direction": "Rosa fofo com toques de céu estrelado (Deep cosmic indigo starry sky background merged with pastel soft pink #FFD1DC, strawberry milk cream #FFF5F7, portal neon green #10B981, and warm golden starlight #FDE047)",
+    "logo_mark": "Mundinho logo with cute pink ribbon/bow SVG icon usable as header logo & favicon"
+  },
+  "typography": {
+    "google_fonts_import": "https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Fredoka:wght@400;600;700&family=Plus+Jakarta+Sans:ital,wght@0,400;0,600;0,700;1,400&family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap",
+    "headline_font": "'Fredoka', cursive, sans-serif",
+    "body_font": "'Plus Jakarta Sans', sans-serif",
+    "handwritten_font": "'Caveat', cursive",
+    "tech_mono_font": "'Space Mono', monospace",
+    "font_hierarchy": {
+      "h1": "text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight font-display",
+      "h2": "text-2xl sm:text-3xl lg:text-4xl font-semibold tracking-tight font-display",
+      "h3": "text-xl sm:text-2xl font-medium font-display",
+      "handwritten_heading": "text-3xl sm:text-4xl lg:text-5xl font-handwriting text-pink-600 dark:text-pink-300 leading-snug",
+      "body": "text-base sm:text-lg font-body leading-relaxed text-slate-200 dark:text-pink-50/90",
+      "mono_code": "text-sm sm:text-base font-mono tracking-wide"
+    }
+  },
+  "colors": {
+    "palette_type": "Cosmic Soft Pink & Starry Night Fusion",
+    "theme_tokens": {
+      "background_cosmic": "#0B0B1A",
+      "background_card_dark": "#15152A",
+      "background_card_pink": "#FFF0F4",
+      "primary_pink": "#EC4899",
+      "primary_soft_pink": "#F472B6",
+      "pastel_rose": "#FCE7F3",
+      "accent_gold": "#FBBF24",
+      "portal_green": "#10B981",
+      "portal_green_glow": "rgba(16, 185, 129, 0.4)",
+      "text_dark_heading": "#831843",
+      "text_light_body": "#FCE7F3",
+      "glass_border_pink": "rgba(244, 114, 182, 0.25)",
+      "glass_bg_dark": "rgba(21, 21, 42, 0.75)"
+    },
+    "css_variables_guide": {
+      "--bg-cosmic": "240 40% 7%",
+      "--pink-primary": "330 81% 60%",
+      "--pink-glow": "330 86% 70%",
+      "--portal-green": "160 84% 39%",
+      "--gold-star": "45 93% 47%"
+    }
+  },
+  "visual_enhancers": {
+    "background_effects": "Subtle parallax canvas starry sky with twinkling CSS stars, floating transparent SVG bows and hearts drifting upward, soft glow radial gradients",
+    "glassmorphism": "backdrop-blur-xl bg-slate-900/60 border border-pink-500/20 shadow-[0_8px_32px_rgba(236,72,153,0.15)]",
+    "paper_texture": "Warm off-white parchment card effect for handwritten letter with subtle ink drop decoration and wax seal icon",
+    "custom_cursor": "Cute heart or sparkling star cursor effect on interactive hover states",
+    "audio_effects": "Web Audio API synth tones for cute clicks, meows for cat petting, portal swoosh for multiverse jump, and celebration fanfare for finale (toggle button in header)"
+  },
+  "sections_breakdown": [
+    {
+      "id": "hero",
+      "section_number": 1,
+      "title": "Hero Section",
+      "heading_text": "Fiz uma coisinha pra você... 🎀",
+      "subtext": "Um mini universo cheio de detalhes, fofuras e curiosidades que reuni só pensando em você.",
+      "cta_button": "Tá curiosa? Clica aqui 👀",
+      "interactions_and_animations": "On-load masked line-by-line reveal animation using Framer Motion. Smooth scroll trigger when clicking CTA button. Background features floating SVG bows & hearts with parallax starry sky background."
+    },
+    {
+      "id": "rick_and_morty",
+      "section_number": 2,
+      "title": "Multiverso Rick and Morty Section",
+      "heading_text": "Multiverso de Possibilidades 🪐",
+      "portal_quote": "Com infinitas dimensões e linhas do tempo no multiverso, dar a sorte de te conhecer nessa dimensão específica é estatisticamente inacreditável... e incrível.",
+      "cta_button": "Explorar outra dimensão 🪐",
+      "interactions_and_animations": "Portal green accent (#10B981) glowing ring effect against starry cosmic sky. Clicking CTA button plays swirling portal animation sound & vortex visual overlay that changes the dimensional quote."
+    },
+    {
+      "id": "hello_kitty",
+      "section_number": 3,
+      "title": "Hello Kitty Corner 🎀",
+      "heading_text": "Cantinho Hello Kitty & Recadinhos Secretos 🎀",
+      "subtext": "Clique nas lacinhos e cartas para revelar mensagens escondidas guardadas com todo carinho.",
+      "interactions_and_animations": "Cute soft pink grid with Hello Kitty decorative elements. Interactive flip cards & clickable bows that burst hearts and reveal secret cute compliments."
+    },
+    {
+      "id": "dexter_mystery",
+      "section_number": 4,
+      "title": "Laboratório Secreto do Dexter 🔎",
+      "heading_text": "Temos um caso para investigar... 🔎",
+      "investigate_button": "Analisar Evidências 🧪",
+      "revelation_text": "Investigação inconclusiva. A principal suspeita é esse seu jeitinho.",
+      "interactions_and_animations": "Dark green tech laboratory aesthetic with radar scanner motion. Clicking 'Analisar Evidências' runs a typing scanner code and reveals the playful conclusion message with pop-up badge."
+    },
+    {
+      "id": "cat_corner",
+      "section_number": 5,
+      "title": "Cat Corner Mini-Game 🐱",
+      "heading_text": "Cantinho dos Gatinhos Carinhosos 🐾",
+      "game_instructions": "Passe o cursor ou toque nos gatinhos para fazer carinho! A cada carinho você ganha um elogio e preenche o Fofurômetro.",
+      "interactive_elements": "3 interactive cat avatars (Gatinho Pudim, Miau Estelar, Frufru). Petting cats plays sound meow, triggers floating heart particles, adds +1 to collect progress bar, and displays sweet personalized compliments.",
+      "completion_reward": "Reaching 100% unlocks a special 'Master do Carinho' digital badge!"
+    },
+    {
+      "id": "bento_grid",
+      "section_number": 6,
+      "title": "Bento Grid: Descobrindo Você ✨",
+      "heading_text": "Coisas que estou descobrindo sobre você",
+      "phrases": [
+        "Seu sorriso ilumina qualquer dia cinzento sem nem fazer esforço.",
+        "A forma como você fala das coisas que ama é contagiante.",
+        "Você tem um gosto impecável para pequenos detalhes do dia a dia.",
+        "Sua energia traz uma paz tão gostosa que dá vontade de ficar conversando por horas.",
+        "E o mais importante: você é completamente única neste multiverso."
+      ],
+      "layout": "Asymmetric Bento Grid with 5 custom styled cards featuring subtle hover tilt, neon pink borders, and floating icon decorations."
+    },
+    {
+      "id": "handwritten_letter",
+      "section_number": 7,
+      "title": "Carta Feita à Mão 💌",
+      "heading_text": "De mim para você...",
+      "content": "Ainda estamos no começo dessa história de nos conhecermos, mas cada conversinha com você tem um brilho diferente. Não precisei de nenhum laboratório ou cálculo espacial para perceber o quanto você é especial. Espero que essa coisinha traga um sorrisinho pro seu rosto hoje!",
+      "styling": "Warm tactile parchment paper card with cursive handwritten font ('Caveat'), floating heart wax seal button, and ambient candle light glow."
+    },
+    {
+      "id": "finale",
+      "section_number": 8,
+      "title": "Grand Finale & Surpresa 🎆",
+      "heading_text": "Antes de você ir... 💌",
+      "surprise_button": "Aperte para a Surpresa Final! 🎉",
+      "reply_options": [
+        "Amei, quando é o nosso encontro? ☕✨",
+        "Tô processando tanta fofura! 🥹💖"
+      ],
+      "celebration_animation": "Triggers massive confetti explosion, floating Hello Kitty, cat emojis, glowing stars, floating hearts, sound effect, and displays funny warm interactive confirmation response."
+    }
+  ],
+  "marquee_ribbon": {
+    "type": "Editorial slow-drift ribbon marquee separator",
+    "text_items": [
+      "✨ MUNDINHO DE FOFURA",
+      "🎀 VOCÊ É DEMAIS",
+      "🪐 SORTE NESTE MULTIVERSO",
+      "🐱 CARINHO INFINITO",
+      "💌 CARTA DIGITAL",
+      "✨ UM MINI MIMINHO"
+    ]
+  },
+  "image_urls": {
+    "hello_kitty_neon": "https://images.unsplash.com/photo-1632179008519-c1dd068f9bdc?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzMjV8MHwxfHNlYXJjaHwxfHxjdXRlJTIwY2F0cyUyMHN0YXJyeSUyMG5pZ2h0JTIwaGVsbG8lMjBraXR0eSUyMGNvc21pYyUyMHBpbmslMjBhZXN0aGV0aWNzfGVufDB8fHx8MTc5MTU1MzM5M3ww&ixlib=rb-4.1.0&q=85",
+    "hello_kitty_drinks": "https://images.unsplash.com/photo-1764072565823-3b731f28ab1e?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzMjV8MHwxfHNlYXJjaHw0fHxjdXRlJTIwY2F0cyUyMHN0YXJyeSUyMG5pZ2h0JTIwaGVsbG8lMjBraXR0eSUyMGNvc21pYyUyMHBpbmslMjBhZXN0aGV0aWNzfGVufDB8fHx8MTc5MTU1MzM5M3ww&ixlib=rb-4.1.0&q=85",
+    "cat_tabby": "https://images.unsplash.com/photo-1614035030394-b6e5b01e0737?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxODl8MHwxfHNlYXJjaHw0fHxjdXRlJTIwa2l0dGVuJTIwY2F0JTIwcG9ydHJhaXQlMjBzb2Z0JTIwbGlnaHR8ZW58MHx8fHwxNzkxNTUzMzk3fDA&ixlib=rb-4.1.0&q=85",
+    "cat_kitten": "https://images.unsplash.com/photo-1533743983669-94fa5c4338ec?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxODl8MHwxfHNlYXJjaHwyfHxjdXRlJTIwa2l0dGVuJTIwY2F0JTIwcG9ydHJhaXQlMjBzb2Z0JTIwbGlnaHR8ZW58MHx8fHwxNzkxNTUzMzk3fDA&ixlib=rb-4.1.0&q=85",
+    "starry_sky": "https://images.unsplash.com/photo-1648563643923-2091f9c0c12f?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2OTV8MHwxfHNlYXJjaHwxfHxzdGFycnklMjBza3klMjBjb3NtaWMlMjBnYWxheHklMjBkYXJrJTIwbmlnaHR8ZW58MHx8fHwxNzkxNTUzMzk3fDA&ixlib=rb-4.1.0&q=85"
+  },
+  "data_testid_convention": {
+    "rule": "Every interactive button, link, toggle, input, and response state MUST have a unique data-testid in kebab-case format.",
+    "required_test_ids": [
+      "header-logo",
+      "audio-toggle-button",
+      "hero-cta-button",
+      "multiverse-portal-button",
+      "hello-kitty-card-0",
+      "hello-kitty-card-1",
+      "hello-kitty-card-2",
+      "dexter-investigate-button",
+      "dexter-result-container",
+      "cat-pet-button-0",
+      "cat-pet-button-1",
+      "cat-pet-button-2",
+      "fofurometro-progress-bar",
+      "bento-grid-card-0",
+      "bento-grid-card-1",
+      "bento-grid-card-2",
+      "bento-grid-card-3",
+      "bento-grid-card-4",
+      "letter-envelope-toggle",
+      "finale-surprise-button",
+      "reply-button-date",
+      "reply-button-cute",
+      "reply-feedback-message"
+    ]
+  },
+  "instructions_to_main_agent": [
+    "Inject Google Fonts ('Fredoka', 'Plus Jakarta Sans', 'Caveat', 'Space Mono') into public/index.html or index.css.",
+    "Build the page using React 19 + Framer Motion in standard JS (.js / .jsx) files.",
+    "Maintain the exact Brazilian Portuguese strings requested in the problem statement for all 8 sections.",
+    "Include a sticky navigation header with logo bow SVG 'Mundinho', section jump links, and a cute sound/mute toggle button.",
+    "Ensure sound effects use Web Audio API oscillators so no external audio MP3 asset downloads fail.",
+    "Add responsive mobile-first 390px support with full width touch targets and smooth single-scroll experience.",
+    "All interactive cards, buttons, and progress counters MUST use data-testid attributes for testing."
+  ],
+  "UNIVERSAL GUIDELINES FOR MAIN AGENT": [
+    "You tend to converge toward generic outputs. In frontend design, avoid AI slop: make creative, distinctive frontends that surprise and delight.",
+    "Dark colors look good when used independently without harsh gradients. Do not use dark colors as muddy full screen gradients.",
+    "Do not center align everything by default. Use asymmetrical grids, diagonals, and negative space to guide flow.",
+    "Every interaction needs micro-animations: hover states, active presses, smooth Framer Motion transitions, and entrance animations.",
+    "All interactive elements MUST include data-testid attributes in kebab-case.",
+    "Use sonner for toasts when user completes actions (e.g. cat petting progress reached, secret notes revealed)."
+  ]
+}
